@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="37px" viewBox="0 0 36 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="front" transform="translate(-939.000000, -357.000000)" stroke="#FFEFCC" stroke-width="5">
+            <g id="Group-4-Copy" transform="translate(957.112698, 376.112698) rotate(45.000000) translate(-957.112698, -376.112698) translate(935.112698, 354.112698)">
+                <path d="M0,21.6941738 L43.3883476,21.6941738" id="Line"></path>
+                <path d="M21.6941738,0 L21.6941738,43.3883476" id="Line-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

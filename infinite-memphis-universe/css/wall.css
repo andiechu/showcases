@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#viewport {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#wall ._tile {
+    position: relative;
+    font-size: 0em;
+    background-repeat: no-repeat;
+}
+
+#wall ._tile .pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " ";
+    width: 180px;
+    height: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+

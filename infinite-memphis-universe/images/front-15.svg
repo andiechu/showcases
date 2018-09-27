@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="227px" height="227px" viewBox="0 0 227 227" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Asset 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="front" transform="translate(-925.000000, -54.000000)" stroke="#231F20" stroke-width="2">
+            <g id="Asset-1" transform="translate(926.000000, 55.000000)">
+                <g id="_Group_2" transform="translate(88.000000, 88.000000)">
+                    <polyline id="_Path_" points="44.22 120.56 0.11 76.65 16.08 16.48 76.17 0.23 120.29 44.15"></polyline>
+                    <polyline id="_Path_2" points="120.29 44.15 60.2 60.4 16.18 16.38"></polyline>
+                    <path d="M60.2,60.4 L44.22,120.56" id="_Path_3"></path>
+                </g>
+                <g id="_Group_3">
+                    <polygon id="_Path_4" points="0 76.34 43.92 120.46 104.08 104.48 120.33 44.39 76.41 0.27 16.25 16.25"></polygon>
+                    <polyline id="_Path_5" points="224.49 72.11 208.56 132.22 164.45 88.31 180.42 28.14 224.49 72.11"></polyline>
+                    <polyline id="_Path_6" points="76.34 0 120.25 44.12 180.42 28.14"></polyline>
+                    <polyline id="_Path_7" points="0 76.34 44.12 120.25 28.14 180.42"></polyline>
+                    <polyline id="_Path_8" points="72.11 224.49 132.22 208.56 88.31 164.44 28.14 180.42 72.11 224.49"></polyline>
+                    <polyline id="_Path_9" points="76.41 0.27 60.16 60.37 104.18 104.38"></polyline>
+                    <path d="M60.16,60.36 L0,76.34" id="_Path_10"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
