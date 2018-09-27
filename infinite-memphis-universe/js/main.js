@@ -19,7 +19,7 @@ $(document).ready(function() {
         }
         
         
-        element.css("background-image", "url('/images/bg-" + bgNumStr +".png')").css("background-size", getRandomInt(20, 60) + "%").css("transform", bgTransStr).css("-webkit-transform", bgTransStr);
+        element.css("background-image", "url('images/bg-" + bgNumStr +".png')").css("background-size", getRandomInt(20, 60) + "%").css("transform", bgTransStr).css("-webkit-transform", bgTransStr);
                 
         if(getRandomInt(0, 10) == 1) {
             let frontTransStr = "";
@@ -28,7 +28,7 @@ $(document).ready(function() {
             let picEl = $(document.createElement("div"));
             picEl.addClass("pic");
             element.append(picEl);
-            picEl.css("background-image", "url('/images/front-" + frontNumStr +".svg')").css("transform", frontTransStr).css("-webkit-transform", frontTransStr);
+            picEl.css("background-image", "url('images/front-" + frontNumStr +".svg')").css("transform", frontTransStr).css("-webkit-transform", frontTransStr);
             
         }
                 
