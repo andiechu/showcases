@@ -65,3 +65,20 @@ body {
 .next {
     right: 2%;
 }
+
+.loader {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 20;
+    background-color: #000;
+    line-height: 100vh;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.loader.hide {
+    display: none;
+}

@@ -61,6 +61,8 @@
         </svg>
     </div>
     
+    <div class="loader">loading</div>
+    
 <!--    <script src="js/TweenMax.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 <!--    <script src="js/pixi.min.js"></script>-->
@@ -95,7 +97,8 @@
             displacementImage: "images/dmaps/2048x2048/clouds.jpg", 
             sprites: spriteImageSrc,
             nav: document.querySelectorAll(".nav-btn"),
-            slideBtnElement : document.querySelectorAll('.slider-btn-item'),
+            slideBtnElement : document.querySelectorAll(".slider-btn-item"),
+            loader: document.querySelector(".loader"),
             texts: texts,
             interactive: true, 
             fullScreen: true,

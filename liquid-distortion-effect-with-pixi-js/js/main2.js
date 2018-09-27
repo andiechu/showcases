@@ -25,6 +25,7 @@
         options.textColor = options.hasOwnProperty('textColor') ? options.textColor : '#fff';
         options.navElement = options.hasOwnProperty('nav')  ?  options.nav : document.querySelectorAll('.nav-btn'); 
         options.slideBtnElement = options.hasOwnProperty('slideBtnElement')  ?  options.slideBtnElement : document.querySelectorAll('.slider-btn-item'); 
+        options.loaderElement = options.hasOwnProperty('loader')  ?  options.loader : document.querySelector('.loader'); 
 
         
         // TEXT STYLE
@@ -317,21 +318,38 @@
                 return false;
             });
         }
+        
+        
+        // LOADER
+        let countNum = 0;
+        var loaderId = window.setInterval(function() {
+            if (countNum % 4 == 0) {
+                options.loaderElement.innerHTML = "loading";
+            } else {
+                options.loaderElement.innerHTML += ".";
+            }
+            
+            countNum++;
+        }, 300);
+        this.removeLoader = function(element) {
+            element.classList.add('hide');
+            window.clearInterval(loaderId);
+            countNum = 0;
+        }
 
 
         // INIT
         this.init = function() {
             that.initPixi();
             that.loadPixiSprites(options.pixiSprites);
-
             
             if ( options.fullScreen === true ) {
               window.addEventListener('resize', function( event ){ 
                 scaleToWindow(renderer.view);
               });
-//              scaleToWindow(renderer.view);  
             }
             
+            that.removeLoader(options.loaderElement);
         };
 
 
